@@ -1,0 +1,34 @@
+.container{
+    background-color: black;
+    height:700px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 12px;
+    column-gap: 12px;
+    
+    }
+    button{
+       font-size:20px;
+      background-color:purple;
+       text-align:center;
+       color:black;
+   }
+   input{
+       padding:40px;
+       padding-right: 780px;
+       color:white;
+background-color: white;
+   }
+   #c{
+       background-color: red;
+       color:white;
+       padding:40px;
+       text-align: center;
+   }
+   #front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
